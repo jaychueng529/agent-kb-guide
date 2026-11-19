@@ -12,7 +12,7 @@ GitHub 连接器完成的是账号登录(OAuth),但对应的 GitHub App 尚未�
 
 ## 处理步骤
 
-需要由账号持有者本人操作:
+需要本人操作:
 
 1. 打开以下地址:
 
@@ -20,7 +20,7 @@ GitHub 连接器完成的是账号登录(OAuth),但对应的 GitHub App 尚未�
    https://github.com/apps/codebuddy-connector/installations/new/permissions?target_id=184965896
    ```
 
-2. 如提示登录,请使用账号持有者本人的 GitHub 账号。用其他账号登录只会把应用安装到那个账号,不会授予对本仓库的访问权限。
+2. 如提示登录，用其他账号登录只会把应用安装到那个账号,不会授予对本仓库的访问权限。
 
 3. 在 Repository access 中选择 All repositories,或至少勾选 `agent-kb`。
 
